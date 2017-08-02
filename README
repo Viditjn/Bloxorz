@@ -1,0 +1,54 @@
+README
+
+Run : 
+	- make
+	- ./sample2D
+ 
+Two levels in the game 
+
+Rules : 
+	- Yellow Color Bricks are normal bricks, can move in any orientation
+	- Red Color bricks are fragile bricks, box will fall if oriented vertical on these bricks
+	- Green Color bricks are bridge bricks, a bridge will we made in the path to reach the goal
+	- Blue Color bricks are switch bricks , toggle the bridge made
+	- Any part of base of Box in air will result in falling of the box
+	- To unlock next level put the box in vertical orientaion in the goal hole
+
+Scoring :
+	- Try to reach the goal in minimum moves
+
+GameOver :
+	- If box fall out of the board 
+
+Minimum steps for Level 1 : 21
+Minimum steps for Level 2 : 42
+
+Controls : 
+
+	KEYBOARD:
+		BLOCK MOVEMENT:
+			a : move left
+			d : move right
+			w : move up
+			s : move down
+
+		CAMERA VIEW:
+			1 : Top View
+			2 : Tower View
+			3 : Self View
+			4 : Follow Up View
+			5 : Helicopter
+
+		Helicopter View : 
+			Using Mouse : Left Click Hold And Move
+						: Right Click Hold And Move (to change along z-axis i.e. height of helicopter) 
+
+		Arrow key :
+			Up : Zoom Out
+			Down : Zoom In
+
+		For Self And Follow UP View :
+		   	j : look left
+		   	l : look right
+		   	i : look up 
+		   	k : look down
